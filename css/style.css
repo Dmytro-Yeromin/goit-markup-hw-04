@@ -481,6 +481,9 @@ p {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
+.social-footer-icon {
+  fill: var(--wite-color);
+}
 
 /* Portfolio */
 
@@ -510,6 +513,7 @@ p {
 .social-model-btn {
   font-family: var(--text-font);
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.625;
   cursor: pointer;
   padding: 6px 22px;
@@ -564,9 +568,6 @@ p {
 
 .link-portfolio:hover,
 .link-portfolio:focus {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
